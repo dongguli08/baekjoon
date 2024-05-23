@@ -1,28 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main(void) {
-
-	int lenth;
-	int arr[100];
-	int n=0;
-	int choose;
-
-	scanf("%d", &lenth);
-	for (int i = 0; i < lenth; i++) {
-		//printf("정수를 입력하시오%d:", i + 1);
-		scanf("%d", &arr[i]);
 	
-	}
-	/*for (int i = 0; i < lenth; i++) {
-		printf("%d", arr[i]);
-	}*/
-	//printf("\n");
-	//printf("출력하고 싶은 숫자를 입력하시오:");
-	scanf("%d", &choose);
+	int num=0;
+	int check=0;
+	int count = 0;
+	
+	//printf("입력받고 싶은 숫자의 갯수를 입력:");
+	scanf("%d", &num);
+		int arr[num];
 
-	for (int i = 0; i < lenth; i++) {
-		if (arr[i] == choose)
-			n += 1;
+	for (int i = 0; i < num; i++) {
+		scanf("%d", &arr[i]);
 	}
-	printf("%d", n);
+	
+	scanf("%d", &check);
+	for (int j = 0; j < num; j++) {
+		if (arr[j] == check)
+		count++;
+	}
+	printf("%d", count);
 }
