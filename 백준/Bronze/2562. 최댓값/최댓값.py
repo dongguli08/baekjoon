@@ -1,5 +1,5 @@
 numbers = []
-for _ in range(9):
+for i in range(9):
     i = int(input())
     numbers.append(i)
     
