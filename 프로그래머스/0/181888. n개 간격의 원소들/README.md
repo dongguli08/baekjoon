@@ -1,6 +1,6 @@
 # [level 0] n개 간격의 원소들 - 181888 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181888?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181888) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 09월 04일 13:46:31
+2025년 06월 12일 16:12:37
 
 ### 문제 설명
 
