@@ -1,0 +1,1 @@
+solution=lambda x,y:x[:x.rindex(y)+len(y)]
