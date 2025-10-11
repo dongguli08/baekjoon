@@ -1,0 +1,1 @@
+solution=lambda x,y:sum(1 for i in range(len(x))if x[i:i+len(y)]==y)
