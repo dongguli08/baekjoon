@@ -1,2 +1,2 @@
 
-const solution = (num_list, n) => num_list.filter((_, i) => !(i % n))
+const solution = (num_list, n) => num_list.filter((_,i) => !(i % n))
